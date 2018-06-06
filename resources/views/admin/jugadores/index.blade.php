@@ -78,7 +78,7 @@
       @empty
          <div class="col-md-12">
             <div class="alert alert-primary alert-bordered">
-               <span class="text-semibold">Lo siento!</span> No se encuentran jugadores con ese nombre
+               <span class="text-semibold">Lo siento!</span> No se encuentran jugadores con ese nombre.
             </div>
          </div>
       @endforelse
