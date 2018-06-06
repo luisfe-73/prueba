@@ -63,7 +63,7 @@
                   <b>Contacto madre:</b>&nbsp; {{$jugador->contacto_madre_jugador}}</p>
                   <b>Contacto otro1:</b>&nbsp; {{$jugador->contacto_otro1_jugador}}</p>
                   <b>Contacto otro2:</b>&nbsp; {{$jugador->contacto_otro2_jugador}}</p>
-                  <b>Comentario:</b>&nbsp; {{$jugador->comentario_jugador}}</p><hr>
+                  <b>Comentario:</b>&nbsp; {{$jugador->comentario_jugador}}</p><hr><hr>
                   <div class="col-xs-6">
                         <a href="{{route('jugadores.edit', $jugador->id)}}" class="btn btn-block btn-info p-5">Editar <i class="icon-arrow-right14 position-right"></i></a>
                   </div>
